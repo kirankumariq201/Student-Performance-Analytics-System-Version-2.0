@@ -100,3 +100,24 @@ See [`docs/Project_Documentation.md`](docs/Project_Documentation.md) for the obj
 ## Version
 
 **2.0** — rebuilt as a separate project. It does not modify the earlier project folder or the separate internship CRUD repository.
+
+
+## Live Demo
+
+- **Live dashboard:** https://student-performance-analytics-v2.onrender.com
+- **Render service dashboard:** https://dashboard.render.com/web/srv-dbcq3dbncjis73d98fvg
+- **GitHub repository:** https://github.com/kirankumariq201/Student-Performance-Analytics-System-Version-2.0
+- **Source code — dashboard:** https://github.com/kirankumariq201/Student-Performance-Analytics-System-Version-2.0/blob/main/app.py
+
+The live dashboard is hosted on Render's free web-service plan and deploys from the `main` branch. The first deployment may take a few minutes. Free services can spin down after inactivity, so the first visit after a quiet period may take a little longer.
+
+### Run the dashboard locally
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run app.py
+```
+
+### Hosting and privacy notes
+
+The app processes uploaded CSV data during the active session and writes generated reports to a temporary directory for download. This project is a demonstration, not a secure student-record management system. Do not upload confidential or personally identifiable student records to a public demo.
